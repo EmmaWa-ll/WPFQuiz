@@ -6,6 +6,7 @@
              xmlns:local="clr-namespace:WPFQuiz"
              mc:Ignorable="d" 
              d:DesignHeight="500" d:DesignWidth="800">
+
     <Grid Background="Transparent">
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
             <TextBlock Text="{Binding ScoreText}" FontSize="32" FontWeight="Bold" TextAlignment="Center" 

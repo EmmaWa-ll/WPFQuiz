@@ -10,11 +10,7 @@ namespace WPFQuiz
         public Question CurrentQuestion { get; set; }
         public int CorrectAnswers { get; set; }
         public int TotalAnswered { get; set; }
-        private List<Question> order = new();
-        private int startQuestion = 0;
         public bool IsQuizFinished { get; set; }
-
-
         public string ScoreText
         {
             get
@@ -27,19 +23,14 @@ namespace WPFQuiz
                 return $"Answeres: {CorrectAnswers} / {TotalAnswered} ({percent}%)";
             }
         }
-
         public PlayQuizViewModel(Quiz quiz)
         {
             CurrentQuiz = quiz;
-
-            var random = new Random();
-            order = quiz.Questions.OrderBy(q => random.Next()).ToList();
-            startQuestion = 0;
-            CurrentQuestion = order.Any() ? order[startQuestion] : null;
-
             CorrectAnswers = 0;
             TotalAnswered = 0;
+            CurrentQuestion = CurrentQuiz.GetRandomQuestion();
             OnPropertyChanged(nameof(CurrentQuestion));  //Nameof är funktion som ger namnet på egennskap som en sträng
+            OnPropertyChanged(nameof(ScoreText));
         }
 
         public event PropertyChangedEventHandler? PropertyChanged;
@@ -51,7 +42,6 @@ namespace WPFQuiz
                 PropertyChanged(this, new PropertyChangedEventArgs(name));
             }
         }
-
         public bool AnswerQuestion(int selectedAnswer)
         {
             TotalAnswered++;
@@ -70,7 +60,5 @@ namespace WPFQuiz
             OnPropertyChanged(nameof(ScoreText));
             return isCorrect;
         }
-
-
     }
 }

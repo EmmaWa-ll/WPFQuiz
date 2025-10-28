@@ -19,6 +19,7 @@ namespace WPFQuiz.Files
                 .OrderBy(x => x)
                 .ToList();
         }
+
         public static async Task<Quiz?> LoadFile(string title)
         {
             Directory.CreateDirectory(Folder);
@@ -34,9 +35,11 @@ namespace WPFQuiz.Files
         public static async Task SaveFile(Quiz quiz)
         {
             Directory.CreateDirectory(Folder);
-            var path = Path.Combine(Folder, quiz.Title + ".json");
+            string safeTitle = string.Join("_", quiz.Title.Split(Path.GetInvalidFileNameChars()));
+            var path = Path.Combine(Folder, safeTitle + ".json");
             var json = JsonSerializer.Serialize(quiz, new JsonSerializerOptions { WriteIndented = true });
             await File.WriteAllTextAsync(path, json);
         }
+
     }
 }

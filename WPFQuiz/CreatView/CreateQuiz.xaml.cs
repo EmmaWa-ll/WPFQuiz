@@ -84,6 +84,7 @@ namespace WPFQuiz.CreatView
                 MessageBox.Show("There must be a minimun of 3 questions");
                 return;
             }
+
             await QuizFile.SaveFile(CurrentQuiz);
             MessageBox.Show("Quiz saved");
             ClearForm();

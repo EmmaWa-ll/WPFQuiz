@@ -8,4 +8,14 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Quizzes\WhoSaid.json.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Quizzes\WhoSaid.json.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>

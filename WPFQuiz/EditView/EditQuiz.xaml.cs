@@ -89,26 +89,24 @@ namespace WPFQuiz.EditView
             ClearForm();
             MessageBox.Show("Question has been deleated");
         }
-
         private async void SaveQuiz_CLick(object sender, RoutedEventArgs e)
         {
             _quiz.Title = TitleBox.Text.Trim();
-            if (QuestionList.SelectedItem != null)
+            bool saved = UpdateSelectedQuestion();
+            if (!saved)
             {
-                bool saved = UpdateSelectedQuestion();
-                if (!saved)
-                {
-                    return;
-                }
+                return;
             }
             try
             {
                 await QuizFile.SaveFile(_quiz);
                 MessageBox.Show("Quiz has been saved");
+                QuestionList.Items.Refresh();
+                ClearForm();
             }
-            catch
+            catch (Exception ex)
             {
-                MessageBox.Show("The quiz coudln't be saved. Try again.");
+                MessageBox.Show(ex.Message);
             }
         }
         public void ClearForm()
@@ -117,7 +115,6 @@ namespace WPFQuiz.EditView
             Answer1Box.Text = "";
             Answer2Box.Text = "";
             Answer3Box.Text = "";
-
         }
         private void Back_Click(object sender, RoutedEventArgs e)
         {

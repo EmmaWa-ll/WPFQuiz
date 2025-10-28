@@ -1,0 +1,96 @@
+﻿{
+  "Questions": [
+    {
+      "Statement": "Who said: \u0022I have nothing to offer but blood, toil, tears, and sweat\u0022?",
+      "Answers": [
+        "Theodore Roosevelt",
+        "Winston Churchill",
+        "Linda Amnell"
+      ],
+      "CorrectAnswer": 1
+    },
+    {
+      "Statement": "Who said: \u0022That\u0027s one small step for man, one giant leap for mankind\u0022?",
+      "Answers": [
+        "John Glenn",
+        "Buzz Aldrin",
+        "Neil Armstrong"
+      ],
+      "CorrectAnswer": 2
+    },
+    {
+      "Statement": "Who said: \u0022The only thing we have to fear is fear itself\u0022?",
+      "Answers": [
+        "Abraham Lincoln",
+        "Franklin D. Roosevelt",
+        "John F. Kennedy"
+      ],
+      "CorrectAnswer": 1
+    },
+    {
+      "Statement": "Who said: \u0022Give me liberty, or give me death!\u0022",
+      "Answers": [
+        "George Washington",
+        "Patrick Henry",
+        "Thomas Jefferson"
+      ],
+      "CorrectAnswer": 1
+    },
+    {
+      "Statement": "Who said: \u0022I think, therefore I am\u0022?",
+      "Answers": [
+        "Ren\u00E9 Descartes",
+        "Socrates",
+        "Plato"
+      ],
+      "CorrectAnswer": 0
+    },
+    {
+      "Statement": "Who said: \u0022The unexamined life is not worth living\u0022?",
+      "Answers": [
+        "Plato",
+        "Aristotle",
+        "Socrates"
+      ],
+      "CorrectAnswer": 2
+    },
+    {
+      "Statement": "Who said: \u0022To be, or not to be, that is the question\u0022?",
+      "Answers": [
+        "Christopher Marlowe",
+        "John Milton",
+        "William Shakespeare"
+      ],
+      "CorrectAnswer": 2
+    },
+    {
+      "Statement": "Who said: \u0022Imagination is more important than knowledge\u0022?",
+      "Answers": [
+        "Isaac Newton",
+        "Nikola Tesla",
+        "Albert Einstein"
+      ],
+      "CorrectAnswer": 2
+    },
+    {
+      "Statement": "Who said: \u0022I came, I saw, I conquered\u0022?",
+      "Answers": [
+        "Julius Caesar",
+        "Napoleon Bonaparte",
+        "Alexander the Great"
+      ],
+      "CorrectAnswer": 0
+    },
+    {
+      "Statement": "Who said: \u0022Float like a butterfly, sting like a bee\u0022?",
+      "Answers": [
+        "Mike Tyson",
+        "Muhammad Ali",
+        "Joe Frazier"
+      ],
+      "CorrectAnswer": 1
+    }
+  ],
+  "Title": "Who said?",
+  "Randomizer": {}
+}
