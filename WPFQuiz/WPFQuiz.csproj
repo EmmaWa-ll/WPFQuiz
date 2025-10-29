@@ -9,12 +9,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Quizzes\WhoSaid.json.txt" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Content Include="Quizzes\WhoSaid.json.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <Content Include="Quizzes\WhoSaid.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
 

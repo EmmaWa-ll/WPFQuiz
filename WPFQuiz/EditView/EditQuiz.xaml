@@ -14,14 +14,15 @@
         </Grid.RowDefinitions>
 
         <!-- titeln-->
-        <Border Grid.Row="0" Grid.ColumnSpan="3" Padding="8" Background="#20FFFFFF" BorderThickness="0" Margin="0,0,0,20">
+        <Border Grid.Row="0" Grid.ColumnSpan="3" Padding="8" Background="#20FFFFFF" BorderThickness="0" 
+                Margin="0,0,0,20">
             <Grid>
                 <!-- backåt button-->
                 <Button Content="← Back" Click="Back_Click"  Padding="7" FontWeight="Bold" FontSize="16" HorizontalAlignment="Left"
                 VerticalAlignment="Top" Margin="15,18,0,0" Background="#7A613F" Foreground="White" BorderBrush="#DCCB8E"
                  BorderThickness="2"/>
-
-                <TextBlock Text="Edit Quiz" FontSize="40" FontWeight="SemiBold" Foreground="#DCCB8E" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" >
+                <TextBlock Text="Edit Quiz" FontSize="40" FontWeight="SemiBold" Foreground="#DCCB8E" 
+                           HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap">
                 </TextBlock>
             </Grid>
         </Border>
@@ -67,7 +68,8 @@
                 <StackPanel Margin="0,10,0,0" Orientation="Horizontal">
                     <TextBlock Text="Correct Answer" Foreground="#DCCB8E" FontWeight="Bold" VerticalAlignment="Center" 
                          Margin="0,0,5,0"/>
-                    <ComboBox  x:Name="CorrectCombo" MinWidth="100" Margin="10" Background="#1E2A22" Foreground="#1E2A22" BorderBrush="#DCCB8E" BorderThickness="1"
+                    <ComboBox  x:Name="CorrectCombo" MinWidth="100" Margin="10" Background="#1E2A22" 
+                               Foreground="#1E2A22" BorderBrush="#DCCB8E" BorderThickness="1"
                         FontSize="16"  HorizontalAlignment="Stretch">
                         <ComboBoxItem Content="1"/>
                         <ComboBoxItem Content="2"/>

@@ -12,7 +12,7 @@
             <TextBlock Text="{Binding ScoreText}" FontSize="32" FontWeight="Bold" TextAlignment="Center" 
                        HorizontalAlignment="Center" Foreground="#DCCB8E"/>
             <Button Content="← Back to Main Menu" Click="BackToMenu_Click" Padding="10" HorizontalAlignment="Center"
-                    Background="#7A613F" Foreground="White" BorderBrush="#DCCB8E" BorderThickness="1" />
+                    Background="#7A613F" Foreground="White" BorderBrush="#DCCB8E" BorderThickness="1"/>
         </StackPanel>
     </Grid>
 </UserControl>

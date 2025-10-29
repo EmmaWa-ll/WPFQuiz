@@ -7,8 +7,33 @@ namespace WPFQuiz.Files
     public static class QuizFile
     {
         public static string Folder => Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "WPFQuiz");
+
+        public static void EnsureSeeded()
+        {
+            Directory.CreateDirectory(Folder);
+            if (Directory.EnumerateFiles(Folder, "*.json").Any())
+            {
+                return;
+            }
+
+            string baseDir = AppContext.BaseDirectory;
+            string quizzesDir = Path.Combine(baseDir, "Quizzes");
+            if (!Directory.Exists(quizzesDir))
+            {
+                return;
+            }
+            foreach (var src in Directory.EnumerateFiles(quizzesDir, "*.json"))
+            {
+                string dest = Path.Combine(Folder, Path.GetFileName(src));
+                if (!File.Exists(dest))
+                {
+                    File.Copy(src, dest, overwrite: false);
+                }
+            }
+        }
         public static List<string> LoadTitles()
         {
+            EnsureSeeded();
             if (!Directory.Exists(Folder))
             {
                 return new List<string>();
