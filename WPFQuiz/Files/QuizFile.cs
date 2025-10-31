@@ -17,7 +17,7 @@ namespace WPFQuiz.Files
             }
 
             string baseDir = AppContext.BaseDirectory;
-            string quizzesDir = Path.Combine(baseDir, "Quizzes");
+            string quizzesDir = Path.Combine(baseDir, "quizzes");
             if (!Directory.Exists(quizzesDir))
             {
                 return;
@@ -33,7 +33,7 @@ namespace WPFQuiz.Files
         }
         public static List<string> LoadTitles()
         {
-            EnsureSeeded();
+
             if (!Directory.Exists(Folder))
             {
                 return new List<string>();

@@ -77,7 +77,7 @@ namespace WPFQuiz.EditView
             return true;
         }
 
-        private void DeleteQuestion_Click(object sender, RoutedEventArgs e)
+        private async void DeleteQuestion_Click(object sender, RoutedEventArgs e)
         {
             if (QuestionList.SelectedItem is not Question q)
             {
@@ -87,7 +87,16 @@ namespace WPFQuiz.EditView
             _quiz.Questions.Remove(q);
             QuestionList.Items.Refresh();
             ClearForm();
-            MessageBox.Show("Question has been deleated");
+
+            try
+            {
+                await QuizFile.SaveFile(_quiz);
+                MessageBox.Show("Question has been deleted and quizz saved.");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
         private async void SaveQuiz_CLick(object sender, RoutedEventArgs e)
         {

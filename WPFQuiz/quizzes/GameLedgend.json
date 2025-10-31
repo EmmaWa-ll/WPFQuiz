@@ -1,0 +1,96 @@
+﻿{
+  "Questions": [
+    {
+      "Statement": "\"When you're out there savin' people, ridein' hard and dyin' tryin' — that's honor.\"",
+      "Answers": [
+        "Arthur Morgan — Red Dead Redemption 2",
+        "Dutch van der Linde — Red Dead Redemption 2",
+        "John Marston — Red Dead Redemption"
+      ],
+      "CorrectAnswer": 0
+    },
+    {
+      "Statement": "\"I'll choose the chaos option every time.\"",
+      "Answers": [
+        "Trevor Philips — GTA V",
+        "Vaas Montenegro — Far Cry 3",
+        "Big Smoke — GTA San Andreas"
+      ],
+      "CorrectAnswer": 0
+    },
+    {
+      "Statement": "\"We can't always choose who we save… but we try anyway.\"",
+      "Answers": [
+        "John Marston — Red Dead Redemption",
+        "Arthur Morgan — Red Dead Redemption 2",
+        "Joel — The Last of Us"
+      ],
+      "CorrectAnswer": 2
+    },
+    {
+      "Statement": "\"The streets may forget you. The money never will.\"",
+      "Answers": [
+        "Michael De Santa — GTA V",
+        "Tommy Vercetti — GTA Vice City",
+        "Franklin Clinton — GTA V"
+      ],
+      "CorrectAnswer": 2
+    },
+    {
+      "Statement": "\"Chaos is my love language.\"",
+      "Answers": [
+        "Trevor Philips — GTA V",
+        "Handsome Jack — Borderlands",
+        "Niko Bellic — GTA IV"
+      ],
+      "CorrectAnswer": 1
+    },
+    {
+      "Statement": "\"I'm not trapped here with dragons. They're trapped here with me.\"",
+      "Answers": [
+        "Dragonborn — Skyrim",
+        "Geralt — The Witcher",
+        "Kratos — God of War"
+      ],
+      "CorrectAnswer": 0
+    },
+    {
+      "Statement": "\"Building? Fighting? Talking to wolves? Yeah, it's a normal day.\"",
+      "Answers": [
+        "Link — Zelda",
+        "Aloy — Horizon Zero Dawn",
+        "Lara Croft — Tomb Raider"
+      ],
+      "CorrectAnswer": 1
+    },
+    {
+      "Statement": "\"Campers? Seriously? Fight me like a real player.\"",
+      "Answers": [
+        "Ghost — Call of Duty",
+        "Soap — Call of Duty",
+        "Every COD player ever"
+      ],
+      "CorrectAnswer": 2
+    },
+    {
+      "Statement": "\"Truth is an illusion. Freedom is the only rule.\"",
+      "Answers": [
+        "Ezio Auditore — Assassin's Creed",
+        "Altair — Assassin's Creed",
+        "Bayek — Assassin's Creed"
+      ],
+      "CorrectAnswer": 0
+    },
+    {
+      "Statement": "\"War stays the same — only the survivors change.\"",
+      "Answers": [
+        "Vault Dweller — Fallout",
+        "NCR Veteran — Fallout: New Vegas",
+        "Sole Survivor — Fallout 4"
+      ],
+      "CorrectAnswer": 0
+    }
+  ],
+  "Title": "Game Legends Quiz",
+  "Randomizer": {}
+}

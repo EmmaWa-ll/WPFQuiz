@@ -1,4 +1,6 @@
 ﻿using System.Windows;
+using WPFQuiz.Files;
+
 
 namespace WPFQuiz
 {
@@ -10,6 +12,7 @@ namespace WPFQuiz
         public MainWindow()
         {
             InitializeComponent();
+            QuizFile.EnsureSeeded();
             this.Content = new WPFQuiz.StartView.StartMenu();
         }
     }

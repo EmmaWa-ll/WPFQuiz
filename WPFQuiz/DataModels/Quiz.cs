@@ -38,5 +38,22 @@
             Questions.Add(q);
         }
 
+        public void RemoveQuestion(int index)
+        {
+            if (index < 0 || index >= Questions.Count)
+            {
+                return;
+            }
+;
+            var q = Questions[index];
+            Questions.RemoveAt(index);
+
+            if (usedQuestions.Count > 0)
+            {
+                usedQuestions.RemoveAll(u => ReferenceEquals(u, q) || u == q);
+            }
+
+        }
+
     }
 }

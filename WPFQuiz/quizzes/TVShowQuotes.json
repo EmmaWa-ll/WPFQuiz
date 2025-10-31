@@ -1,0 +1,57 @@
+﻿{
+	"Questions": [
+		{
+			"Statement": "\"There's seven billion people on the planet. Not one of 'em knows I'm here. Not one. Not a god-damn soul.\"",
+			"Answers": [ "John Dutton — Yellowstone", "Rip Wheeler — Yellowstone", "Tim Riggins — Friday Night Lights" ],
+			"CorrectAnswer": 0
+		},
+		{
+			"Statement": "\"Would I rather be feared or loved? Easy. Both. I want people to be afraid of how much they love me.\"",
+			"Answers": [ "Michael Scott — The Office", "Jim Halpert — The Office", "Andy Bernard — The Office" ],
+			"CorrectAnswer": 0
+		},
+		{
+			"Statement": "\"We were on a break!\"",
+			"Answers": [ "Barney Stinson — HIMYM", "Chandler Bing — Friends", "Ross Geller — Friends" ],
+			"CorrectAnswer": 2
+		},
+		{
+			"Statement": "\"It's going to be legen—wait for it—dary! Legendary!\"",
+			"Answers": [ "Barney Stinson — HIMYM", "Ted Mosby — HIMYM", "Marshall Eriksen — HIMYM" ],
+			"CorrectAnswer": 0
+		},
+		{
+			"Statement": "\"I am the one who knocks.\"",
+			"Answers": [ "Jesse Pinkman — Breaking Bad", "Walter White — Breaking Bad", "Gus Fring — Breaking Bad" ],
+			"CorrectAnswer": 1
+		},
+		{
+			"Statement": "\"I'd rather fight a thousand men than see her hurt.\"",
+			"Answers": ["Wade Morrow — Yellowstone","John Dutton — Yellowstone","Rip Wheeler — Yellowstone"],
+			"CorrectAnswer": 2
+		},
+		{
+			"Statement": "\"Every time life feels good, I convince myself it'll stay that way… but it never does.\"",
+			"Answers": ["Cassie — Euphoria", "Maddy — Euphoria", "Rue — Euphoria"],
+			"CorrectAnswer": 2
+		},
+		{
+			"Statement": "\"I don't ask for permission. I do what needs to be done.\"",
+			"Answers": ["Tony Soprano — The Sopranos","Thomas Shelby — Peaky Blinders","Walter White — Breaking Bad"],
+			"CorrectAnswer": 1
+		},
+
+		{
+			"Statement": "\"When life gives you lemons, just say screw the lemons and bail.\"",
+			"Answers": [ "Marshall Eriksen — HIMYM", "Joey Tribbiani — Friends", "Nick Miller — New Girl" ],
+			"CorrectAnswer": 0
+		},
+		{
+			"Statement": "\"Oh well, Heil H*tl*r, b*tch!\"",
+			"Answers": [ "Jesse Pinkman — Breaking Bad", "Walter White — Breaking Bad", "Todd Alquist — Breaking Bad" ],
+			"CorrectAnswer": 0
+		}
+	],
+	"Title": "Famous TV Show Quotes",
+	"Randomizer": {}
+}

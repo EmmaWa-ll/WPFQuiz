@@ -1,0 +1,56 @@
+﻿{
+  "Questions": [
+    {
+      "Statement": "Which character says: \"To infinity and beyond!\"",
+      "Answers": [ "Woody", "Buzz Lightyear", "Mr. Potato Head" ],
+      "CorrectAnswer": 1
+    },
+    {
+      "Statement": "Which princess loses a glass slipper?",
+      "Answers": [ "Belle", "Cinderella", "Aurora" ],
+      "CorrectAnswer": 1
+    },
+    {
+      "Statement": "In which movie is the song \"Let It Go\" from?",
+      "Answers": [ "Frozen", "Moana", "Tangled" ],
+      "CorrectAnswer": 0
+    },
+    {
+      "Statement": "\"Hakuna Matata\" comes from which movie?",
+      "Answers": [ "The Lion King", "Tarzan", "Pocahontas" ],
+      "CorrectAnswer": 0
+    },
+    {
+      "Statement": "Who is the little girl in Monsters, Inc.?",
+      "Answers": [ "Boo", "Sally", "Ellie" ],
+      "CorrectAnswer": 0
+    },
+    {
+      "Statement": "What is the name of the red crab in The Little Mermaid?",
+      "Answers": [ "Flounder", "Sebastian", "Scuttle" ],
+      "CorrectAnswer": 1
+    },
+    {
+      "Statement": "Which movie features the toy cowboy Woody?",
+      "Answers": [ "Up", "Cars", "Toy Story" ],
+      "CorrectAnswer": 2
+    },
+    {
+      "Statement": "Which Disney princess has a pet tiger named Rajah?",
+      "Answers": [ "Jasmine", "Ariel", "Snow White" ],
+      "CorrectAnswer": 0
+    },
+    {
+      "Statement": "What is the name of the boy who never grows up?",
+      "Answers": [ "Pinocchio", "Peter Pan", "Robin Hood" ],
+      "CorrectAnswer": 0
+    },
+    {
+      "Statement": "Which movie starts with: \"Once upon a dream\"?",
+      "Answers": [ "Sleeping Beauty", "Beauty and the Beast", "Cinderella" ],
+      "CorrectAnswer": 0
+    }
+  ],
+  "Title": "Disney & Childhood Movies",
+  "Randomizer": {}
+}
