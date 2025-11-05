@@ -24,7 +24,7 @@ namespace WPFQuiz.PlayView
             int selectedIndex = int.Parse(button.Tag.ToString());
             ViewModel.AnswerQuestion(selectedIndex);
 
-            if (ViewModel.IsQuizFinished)  //om quiz slut gå till resultview 
+            if (ViewModel.IsQuizFinished)
             {
                 if (Application.Current.MainWindow is MainWindow mw)
                 {

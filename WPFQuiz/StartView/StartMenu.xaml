@@ -8,7 +8,7 @@
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid Background="Transparent">
 
-        <!-- My row ex.header, buttons, fotter tetc. -->
+        <!-- My row ex.header, buttons, -->
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
@@ -16,7 +16,7 @@
 
         <!-- TitelNamn -->
         <Border Grid.Row="0" Grid.ColumnSpan="3" Padding="10" Background="#20FFFFFF" BorderBrush="#22FFFFFF">
-            <TextBlock Text=" QUIZ GAME" FontSize="42" FontWeight="SemiBold" Foreground="#DCCB8E" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">
+            <TextBlock Text=" The Best Quiz Game... EVER!" FontSize="42" FontWeight="SemiBold" Foreground="#DCCB8E" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap">
             </TextBlock>
         </Border>
 

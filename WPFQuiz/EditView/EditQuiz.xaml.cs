@@ -91,7 +91,7 @@ namespace WPFQuiz.EditView
             try
             {
                 await QuizFile.SaveFile(_quiz);
-                MessageBox.Show("Question has been deleted and quizz saved.");
+                MessageBox.Show("Question has been deleted and quiz was saved.");
             }
             catch (Exception ex)
             {
